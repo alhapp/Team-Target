@@ -1,0 +1,85 @@
+import turtle
+from capitalLetters import *
+from lowercaseLetters import *
+
+
+"""
+def writev(t,init1,init2):
+    #This writes the lower case letter v with turtle t and initial coordinates
+    # (init1,init2)
+    cord1 = init1+110
+    cord2 = init2 + 20
+    t.color("black")
+    t.up()
+    t.goto(cord1,cord2)
+    t.down()
+    t.pensize(20)
+
+    t.left(60)
+    t.forward(20000**.5)
+
+    t.up()
+    t.goto(cord1,cord2)
+    t.down()
+
+    t.left(60)
+    t.forward(20000**.5)
+
+    t.color("gray")
+    t.up()
+    t.goto(cord1,cord2)
+    t.down()
+    t.pensize(8)
+
+    t.right(60)
+    t.forward(20000**.5)
+
+    t.up()
+    t.goto(cord1,cord2)
+    t.down()
+
+    t.left(60)
+    t.forward(20000**.5)
+    t.right(120)
+    
+def writetriangle(t,cord1,cord2):
+    t.up()
+    t.goto(cord1,cord2)
+    t.down()
+    
+    for i in range(3):
+        t.forward(100)
+        t.left(120)
+        
+        """
+    
+
+
+# Initialize the turtle and the screen 
+ima = turtle.Screen()
+dan = turtle.Turtle()
+
+#Write a letter from a function
+dan.speed(0)
+
+#writev(dan,-110,-160)
+writev(dan,-610,40)
+writei(dan,-510,40)
+writes(dan,-410,40)
+writei(dan,-310,40)
+writet(dan,-210,40)
+
+writeM(dan,-610,-260)
+writei(dan,-510,-260)
+writen(dan,-410,-260)
+writen(dan,-310,-260)
+writee(dan,-210,-260)
+writes(dan,-110,-260)
+writeo(dan,-10,-260)
+writet(dan,90,-260)
+writea(dan,190,-260)
+
+#writetriangle(dan,0,0)
+
+# Ensure that you can close the window that you created. 
+ima.exitonclick()
